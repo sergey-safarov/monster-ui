@@ -3,7 +3,7 @@ define(function(require){
 	return {
 		api: {
 			// The default API URL defines what API is used to log in to your back-end
-			default: 'http://localhost:8000/v2/' // could be formatted like http://api.server.net:8000/v2/
+			default: 'https://api.rcsnet.ru/v2/' // could be formatted like http://api.server.net:8000/v2/
 
 			// If you have provisioner turned on in your install and can use the one provided by 2600Hz, add the URL in the 'provisioner' key below
 			// provisioner: 'http://URL/2600hz-provisioner/'
@@ -49,10 +49,10 @@ define(function(require){
 
 			// E-mail address used to report calls in SmartPBX's Call Logs. "Report Call" link won't be displayed if no address is specified.
 			// This address can either be set here in the config file, or through the Branding app.
-			callReportEmail: 'support@2600hz.com',
+			callReportEmail: 'admin@rcsnet.ru',
 
 			// Company Name, used in many places in the UI
-			companyName: '2600Hz',
+			companyName: 'Ruscentosvyasi',
 
 			nav: {
 				// Link used when user click on the top-right interrogation mark
@@ -81,7 +81,7 @@ define(function(require){
 		},
 		developerFlags: {
 			// Setting this flag to true will show all restricted callflows in the Callflows app
-			// showAllCallflows: true,
+			showAllCallflows: true
 
 			// Settings this flag to true will show JS error when they happen, but in general we want to hide those so we comment it
 			// showJSErrors: true
